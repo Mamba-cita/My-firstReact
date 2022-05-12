@@ -30,44 +30,41 @@ function ReactFacts() {
     <div className="paragraph">
       <h1>React Facts</h1>
       <div>
-        <p>React is a JavaScript library for building user interfaces.</p>
-        <p>
-          It is maintained by Facebook and a community of individual developers
-          and companies.
-        </p>
-        <p>
-          React can be used as a base in the development of single-page or
-          mobile applications.
-        </p>
-        <p>
-          However, React components are most typically used in the context of
-          React-powered user interfaces in web applications, such as web apps,
-          mobile apps, or React Native apps.
-        </p>
+        <ul>
+          <li>React is a JavaScript library for building user interfaces.</li>
+          <li>
+            It is maintained by Facebook and a community of individual
+            developers and companies.
+          </li>
+          <li>
+            React can be used as a base in the development of single-page or
+            mobile applications.
+          </li>
+          <li>
+            However, React components are most typically used in the context of
+            React-powered user interfaces in web applications, such as web apps,
+            mobile apps, or React Native apps.
+          </li>
+        </ul>
       </div>
     </div>
   );
 }
 
-
 function ImageDisplay() {
   return (
     <div className="image_logo">
-    <h1>React</h1>
+      <h1>React</h1>
       <img src="./logo.png" className="image" />
       <h1>Facts</h1>
     </div>
   );
-
-
-
-
 }
 
 function Footer() {
   return (
-  <div className="footer">
-  <small>@copyright 2022 Edwin's Inc.</small>
-  </div>
+    <div className="footer">
+      <small>@copyright 2022 Edwin's Inc.</small>
+    </div>
   );
 }
