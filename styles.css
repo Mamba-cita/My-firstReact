@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  
+ 
+}
+
+.App{
+
+width: 70%;
+margin: 0 auto;
+padding-left:20px ;
+padding-top: 20px;
+
+
+
+
+}
+.logo {
+    width:10%;
+    
+}
+.image{
+    width:20%;
+    margin-left: 240px;
+    background-color: aquamarine;
+    border-radius: 50px;
+  }
+.image_logo{
+
+    background-color:black;
+  }
+.nav {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+    padding-right: 20px;
+  background-color:rgb(33,34,42);
+
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.nav h1 {
+
+    color: rgb(97,218,251);
+}
+
+.nav h5{
+color: rgb(151,161,170);
+margin-left: auto;
+
+}
+.paragraph{
+    background-color: rgb(40,45,53);
+    padding-top: 20px;
+}
+
+.paragraph h1 {
+color:rgb(255,255,255);
+font-size: 30px;
+font-weight: bold;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 10px; 
+
+}
+
+.paragraph p{
+color:rgb(255,255,255);
+margin-left: 20px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(40,45,53);
+    border-radius: 0 0 10px 10px;
+}
